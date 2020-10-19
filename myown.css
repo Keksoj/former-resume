@@ -84,6 +84,9 @@ table {
     border-collapse: collapse;
 }
 
+li {
+    padding: 0.3em;
+}
 td {
     border: 0px solid #999;
     padding: 0.75rem;
