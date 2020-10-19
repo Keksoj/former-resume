@@ -4,13 +4,207 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+        <link rel="stylesheet" href="myown.css" />
+        <link rel="shortcut icon" href="favicon.ico" />
         <!-- Begin Jekyll SEO tag v2.6.1 -->
-        <title>keksoj.github.io | A web page to introduce myself</title>
+        <title>Alternant développeur web</title>
+
+        <script src="myscript.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </head>
 
     <body>
-        <h1>Hello World!</h1>
-        <p>This is my own personnal website to advertise myself.</p>
+        <div id="introduction">
+            <img
+                id="profile-photo"
+                src="https://avatars0.githubusercontent.com/u/29835330?s=460&u=60036da68e1a1ef839926840098915a86c10f349&v=4"
+            />
+            <h1 id="profile-name">Emmanuel Bosquet</h1>
+            <p id="profile-abstract">
+                Alternant Concepteur Développeur d'Applications
+            </p>
+        </div>
+
+        <div class="links">
+            <a
+                target="_blank"
+                class="link"
+                href="https://linkedin.com/in/emmanuel-bosquet-7b74b61b3"
+            >
+                <img class="link-icon" src="img/linkedin.svg" />LinkedIn</a
+            >
+            <a class="link" target="_blank" href="https://github.com/keksoj">
+                <img class="link-icon" src="img/github.svg" />Github</a
+            >
+            <a
+                class="link"
+                target="_blank"
+                href="https://twitter.com/EmmanuelBosquet"
+            >
+                <img class="link-icon" src="img/twitter.svg" />Twitter</a
+            >
+        </div>
+
+        <div class="selfpresentation">
+            <p>
+                Passionné de technologie, inscrit à l'<a
+                    target="_blank"
+                    href="https://ecole404.fr/"
+                    >école 404</a
+                >, j'aspire à mettre mes compétences au service de votre
+                entreprise.
+            </p>
+        </div>
+
+        <div class="box">
+            <p class="box-title">Résumons le parcours</p>
+
+            <table>
+                <tr>
+                    <td>2020 – 2022</td>
+                    <td>
+                        Formation en alternance à l'école 404, au titre de
+                        <a
+                            target="_blank"
+                            href="https://ecole404.fr/concepteur-developpeur-applications"
+                            >Développeur et Concepteur d'Applications.</a
+                        >
+                        <input
+                            type="button"
+                            onclick="swal(details.ecole);"
+                            value="en savoir plus sur l'école"
+                        />
+                    </td>
+                </tr>
+                <tr>
+                    <td>2019 – 2020</td>
+                    <td>Formation autodidacte au développement web.</td>
+                </tr>
+                <tr>
+                    <td>2015 – 2018</td>
+                    <td>
+                        Prof d'allemand. Contractuel en collége et lycée à
+                        Cherbourg puis en Ille-Et- Vilaine (Saint-Malo, Guichen,
+                        Vitré)
+                    </td>
+                </tr>
+                <tr>
+                    <td>2011 – 2015</td>
+                    <td>
+                        Psychologie. Licence à l'UFR de Caen, master 1 en
+                        psychologie clinique, stages en psychiatrie.
+                    </td>
+                </tr>
+                <tr>
+                    <td>2005 – 2011</td>
+                    <td>
+                        Chaudronnier. BTS, Deux ans d'expérience en France et
+                        Allemagne, nombreux voyages. Appris l'allemand en
+                        autodidacte.
+                        <input
+                            type="button"
+                            onclick="swal(details.chaudronnerie);"
+                            value="plus de détails"
+                        />
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box">
+            <p class="box-title">Compétences techno</p>
+
+            <table>
+                <tr>
+                    <td>linux :</td>
+                    <td>
+                        Debian, Arch Linux. Installation et maintenance, scripts
+                        shell, regex.
+                    </td>
+                </tr>
+                <tr>
+                    <td>admin :</td>
+                    <td>
+                        Mise en place et maintenance de serveurs HTTP (Apache,
+                        NginX), FTP, minecraft.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rust :</td>
+                    <td>
+                        Jeux en ligne de commande (tetris, snake), algoritmes de
+                        tri, un client MQTT léger, une API REST.
+                    </td>
+                </tr>
+                <tr>
+                    <td>NodeJS :</td>
+                    <td>
+                        Collaboré au job board du Coding Caen Camp. Refactoré la
+                        gestion des paramètres de l'API, les tests, édité le
+                        contrat OpenAPI, la documentation.
+                    </td>
+                </tr>
+                <tr>
+                    <td>BDD :</td>
+                    <td>Bases de MySQL, PostgresQL</td>
+                </tr>
+                <tr>
+                    <td>Devops :</td>
+                    <td>git, docker, docker-compose, ansible</td>
+                </tr>
+                <tr>
+                    <td>Front-end :</td>
+                    <td>HTML/CSS, React, Meteor, notions de redux</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="box">
+            <p class="box-title">Compétences humaines</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Associatif :</td>
+                        <td>
+                            Président d'Espéranto-jeunes de 2011 à 2012.
+                            Organisation de rencontres internationales.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pédagogie :</td>
+                        <td>
+                            Aisance face à un groupe, capacité à faire passer un
+                            message précis.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Chaîne youtube:</td>
+                        <td>« Emmanuel explique Bitcoin »</td>
+                    </tr>
+                    <tr>
+                        <td>Langues:</td>
+                        <td>Anglais, allemand et espéranto courants</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="box">
+            <p class="box-title">Loisirs</p>
+            <table>
+                <tr>
+                    <td>Écriture :</td>
+                    <td>Autopublié un récit autobiographique.</td>
+                </tr>
+                <tr>
+                    <td>Musique :</td>
+                    <td>Animation de chants de groupe à la guitare.</td>
+                </tr>
+                <tr>
+                    <td>Sport :</td>
+                    <td>Natation.</td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
