@@ -14,197 +14,375 @@
     </head>
 
     <body>
-        <div id="introduction">
-            <img
-                id="profile-photo"
-                src="https://avatars0.githubusercontent.com/u/29835330?s=460&u=60036da68e1a1ef839926840098915a86c10f349&v=4"
-            />
-            <h1 id="profile-name">Emmanuel Bosquet</h1>
-            <p id="profile-abstract">
-                Alternant Concepteur Développeur d'Applications
-            </p>
-        </div>
+        <div class="flex-container">
+            <div id="head">
+                <img
+                    id="profile-photo"
+                    src="https://avatars0.githubusercontent.com/u/29835330?s=460&u=60036da68e1a1ef839926840098915a86c10f349&v=4"
+                />
+                <h1 id="profile-name">Emmanuel Bosquet</h1>
+                <p id="profile-abstract">
+                    Alternant Concepteur Développeur d'Applications
+                </p>
 
-        <div class="links">
-            <a
-                target="_blank"
-                class="link"
-                href="https://linkedin.com/in/emmanuel-bosquet-7b74b61b3"
-            >
-                <img class="link-icon" src="img/linkedin.svg" />LinkedIn</a
-            >
-            <a class="link" target="_blank" href="https://github.com/keksoj">
-                <img class="link-icon" src="img/github.svg" />Github</a
-            >
-            <a
-                class="link"
-                target="_blank"
-                href="https://twitter.com/EmmanuelBosquet"
-            >
-                <img class="link-icon" src="img/twitter.svg" />Twitter</a
-            >
-        </div>
+                <div class="link-container">
+                    <a
+                        target="_blank"
+                        class="link-item"
+                        href="https://linkedin.com/in/emmanuel-bosquet-7b74b61b3"
+                    >
+                        <img class="link-icon" src="img/linkedin.svg" />
+                    </a>
+                    <a
+                        class="link-item"
+                        target="_blank"
+                        href="https://github.com/keksoj"
+                    >
+                        <img class="link-icon" src="img/github.svg" />
+                    </a>
+                    <a
+                        class="link-item"
+                        target="_blank"
+                        href="https://twitter.com/EmmanuelBosquet"
+                    >
+                        <img class="link-icon" src="img/twitter.svg" />
+                    </a>
+                    <a
+                        class="link-item"
+                        target="_blank"
+                        href="mailto:emmanuel.bosquet@ecole404.fr"
+                    >
+                        <img class="link-icon" src="img/at.svg" />
+                    </a>
+                </div>
 
-        <div class="selfpresentation">
-            <p>
-                Passionné de technologie, inscrit à l'<a
-                    target="_blank"
-                    href="https://ecole404.fr/"
-                    >école 404</a
-                >, j'aspire à mettre mes compétences au service de votre
-                entreprise.
-            </p>
-        </div>
+                <p id="profile-abstract">
+                    Passionné de technologie, inscrit à l'<a
+                        target="_blank"
+                        href="https://ecole404.fr/"
+                        >école 404</a
+                    >, j'aspire à mettre mes compétences au service de votre
+                    entreprise.
+                </p>
+            </div>
 
-        <div class="box">
-            <p class="box-title">Résumons le parcours</p>
+            <div id="parcours" class="section">
+                <div class="section-title">
+                    <img class="section-logo" src="img/path.svg" />
+                    <h2 class="h2-title">Un parcours riche</h2>
+                </div>
+                <div class="section-content">
+                    <table>
+                        <tr>
+                            <td>2020 – 2022</td>
+                            <td>
+                                Formation en alternance à l'école 404
+                                <input
+                                    type="button"
+                                    onclick="swal(details.ecole);"
+                                    value="(qu'est-ce que c'est ?)"
+                                />, au titre de Développeur et Concepteur
+                                d'Applications
+                                <a
+                                    target="_blank"
+                                    href="https://ecole404.fr/concepteur-developpeur-applications"
+                                >
+                                    (voir la fiche formation)</a
+                                >.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2019 – 2020</td>
+                            <td>Formation autodidacte au développement web.</td>
+                        </tr>
+                        <tr>
+                            <td>2015 – 2018</td>
+                            <td>
+                                Prof d'allemand. Contractuel en collège et lycée
+                                à Cherbourg puis en Ille-Et- Vilaine
+                                (Saint-Malo, Guichen, Vitré)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2011 – 2015</td>
+                            <td>
+                                Psychologie. Licence à l'UFR de Caen, master 1
+                                en psychologie clinique, stages en psychiatrie.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2005 – 2011</td>
+                            <td>
+                                Chaudronnier. BTS, Deux ans d'expérience en
+                                France et Allemagne, nombreux voyages. Appris
+                                l'allemand en autodidacte.
+                                <input
+                                    type="button"
+                                    onclick="swal(details.chaudronnerie);"
+                                    value="plus de détails"
+                                />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
-            <table>
-                <tr>
-                    <td>2020 – 2022</td>
-                    <td>
-                        Formation en alternance à l'école 404, au titre de
-                        <a
-                            target="_blank"
-                            href="https://ecole404.fr/concepteur-developpeur-applications"
-                            >Développeur et Concepteur d'Applications.</a
-                        >
-                        <input
-                            type="button"
-                            onclick="swal(details.ecole);"
-                            value="en savoir plus sur l'école"
-                        />
-                    </td>
-                </tr>
-                <tr>
-                    <td>2019 – 2020</td>
-                    <td>Formation autodidacte au développement web.</td>
-                </tr>
-                <tr>
-                    <td>2015 – 2018</td>
-                    <td>
-                        Prof d'allemand. Contractuel en collége et lycée à
-                        Cherbourg puis en Ille-Et- Vilaine (Saint-Malo, Guichen,
-                        Vitré)
-                    </td>
-                </tr>
-                <tr>
-                    <td>2011 – 2015</td>
-                    <td>
-                        Psychologie. Licence à l'UFR de Caen, master 1 en
-                        psychologie clinique, stages en psychiatrie.
-                    </td>
-                </tr>
-                <tr>
-                    <td>2005 – 2011</td>
-                    <td>
-                        Chaudronnier. BTS, Deux ans d'expérience en France et
-                        Allemagne, nombreux voyages. Appris l'allemand en
-                        autodidacte.
-                        <input
-                            type="button"
-                            onclick="swal(details.chaudronnerie);"
-                            value="plus de détails"
-                        />
-                    </td>
-                </tr>
-            </table>
-        </div>
+            <div id="realisations" class="section">
+                <div class="section-title">
+                    <img class="section-logo" src="img/creation.svg" />
+                    <h2 class="h2-title">Réalisations</h2>
+                </div>
+                <div class="section-content">
+                    <p>
+                        Tous les programmes que j'ai écrits sont consultables
+                        sur
+                        <a target="_blank" href="https://github.com/keksoj">
+                            mon github</a
+                        >. J'ai réalisé entre autres :
+                    </p>
 
-        <div class="box">
-            <p class="box-title">Compétences techno</p>
+                    <h3>des applications interactives</h3>
+                    <ul>
+                        <li>
+                            Une application qui calcule l'âge cumulé d'un groupe
+                            de personnes.
+                            <a
+                                target="_blank"
+                                href="http://restedanstaboite.hopto.org/build/index.html"
+                                >Essayez-la !</a
+                            >
+                            (Javascript - React)
+                        </li>
+                        <li>
+                            Des jeux en lignes de commande,
+                            <a
+                                target="_blank"
+                                href="https://github.com/Keksoj/tetris"
+                                >tetris</a
+                            >
+                            et
+                            <a
+                                target="_blank"
+                                href="https://github.com/Keksoj/snake"
+                                >snake</a
+                            >
+                            (en utilisant le language informatique Rust)
+                        </li>
+                        <li>
+                            Ce CV en ligne (HTML/CSS/javascript) au design
+                            responsif, hébergé par github pages.
+                        </li>
 
-            <table>
-                <tr>
-                    <td>linux :</td>
-                    <td>
-                        Debian, Arch Linux. Installation et maintenance, scripts
-                        shell, regex.
-                    </td>
-                </tr>
-                <tr>
-                    <td>admin :</td>
-                    <td>
-                        Mise en place et maintenance de serveurs HTTP (Apache,
-                        NginX), FTP, minecraft.
-                    </td>
-                </tr>
-                <tr>
-                    <td>Rust :</td>
-                    <td>
-                        Jeux en ligne de commande (tetris, snake), algoritmes de
-                        tri, un client MQTT léger, une API REST.
-                    </td>
-                </tr>
-                <tr>
-                    <td>NodeJS :</td>
-                    <td>
-                        Collaboré au job board du Coding Caen Camp. Refactoré la
-                        gestion des paramètres de l'API, les tests, édité le
-                        contrat OpenAPI, la documentation.
-                    </td>
-                </tr>
-                <tr>
-                    <td>BDD :</td>
-                    <td>Bases de MySQL, PostgresQL</td>
-                </tr>
-                <tr>
-                    <td>Devops :</td>
-                    <td>git, docker, docker-compose, ansible</td>
-                </tr>
-                <tr>
-                    <td>Front-end :</td>
-                    <td>HTML/CSS, React, Meteor, notions de redux</td>
-                </tr>
-            </table>
-        </div>
+                        <li>
+                            Un wiki pour prendre note de mes
+                            <a
+                                target="_blank"
+                                href="http://restedanstaboite.hopto.org/Shemesh/pmwiki.php"
+                                >cours de psycho</a
+                            >
+                            (pmwiki - PHP)
+                        </li>
+                    </ul>
+                    <h3>des applications entre machines</h3>
+                    <ul>
+                        <!-- <li>
+                    Une implémentation d'<a
+                        target="_blank"
+                        href="https://github.com/Keksoj/colours"
+                        >algorithmes de tri</a
+                    >
+                    (Rust)
+                    <input
+                        type="button"
+                        onclick="swal(details.tri);"
+                        value="Algorithmes de tri ?"
+                    />
+                </li> -->
+                        <li>
+                            Une API REST (
+                            <a
+                                target="_blank"
+                                href="https://github.com/Keksoj/ages_api"
+                                >voir le code</a
+                            >
+                            ), c'est-à-dire une application <em>back-end</em>,
+                            accessible par des sites web. Cette application
+                            reçoit, conserve et renvoie la donnée de façon
+                            sécurisée pour que seuls les sites et les
+                            utilisateurs autorisés puissent y accéder / la
+                            modifier. (codé en rust avec gestion du JWT)
+                        </li>
+                        <li>
+                            Participé au projet de l'application d'offres
+                            d'emploi (job board) du
+                            <a target="_blank" href="https://www.caen.camp/"
+                                >Caen Camp</a
+                            >, le collectif des codeurs caennais passionnés. Mes
+                            contributions à ce travail d'équipe ont consisté à
+                            optimiser le format des requêtes du
+                            <em>front-end</em> (le site web) pour le
+                            <em>back-end</em> (l'API REST). Voir
+                            <a
+                                target="_blank"
+                                href="https://github.com/CaenCamp/jobs-caen-camp/pull/69"
+                                >un exemple de contribution</a
+                            >. J'ai également mis à jour les tests unitaires et
+                            d'intégration pour assurer l'<em
+                                >intégration continue</em
+                            >. (codé en NodeJS)
+                        </li>
+                        <li>
+                            Un
+                            <a
+                                target="_blank"
+                                href="https://github.com/Keksoj/mqtt_ping_pong"
+                                >client MQTT léger</a
+                            >
+                            (Rust)
+                            <input
+                                type="button"
+                                onclick="swal(details.mqtt);"
+                                value="MQTT kézako ?"
+                            />
+                        </li>
+                    </ul>
 
-        <div class="box">
-            <p class="box-title">Compétences humaines</p>
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Associatif :</td>
-                        <td>
-                            Président d'Espéranto-jeunes de 2011 à 2012.
-                            Organisation de rencontres internationales.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Pédagogie :</td>
-                        <td>
-                            Aisance face à un groupe, capacité à faire passer un
-                            message précis.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Chaîne youtube:</td>
-                        <td>« Emmanuel explique Bitcoin »</td>
-                    </tr>
-                    <tr>
-                        <td>Langues:</td>
-                        <td>Anglais, allemand et espéranto courants</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+                    <h3>des applications de loisirs</h3>
+                    <ul>
+                        <li>
+                            Un serveur de jeu Minecraft, hébergé sur ma propre
+                            machine, accessible par mes amis pour jouer en ligne
+                            et en multijoueur.
+                        </li>
+                        <li>
+                            Un serveur de partage de fichiers hébergé sur ma
+                            propre machine et accessible à mes amis par
+                            navigateur. (Protocole FTP)
+                        </li>
+                        <li>
+                            Une fiction que j'ai écrite et
+                            <a
+                                target="_blank"
+                                href="http://restedanstaboite.hopto.org/book/index.html"
+                                >présentée sous format web</a
+                            >
+                            (outil mdbook).
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="box">
-            <p class="box-title">Loisirs</p>
-            <table>
-                <tr>
-                    <td>Écriture :</td>
-                    <td>Autopublié un récit autobiographique.</td>
-                </tr>
-                <tr>
-                    <td>Musique :</td>
-                    <td>Animation de chants de groupe à la guitare.</td>
-                </tr>
-                <tr>
-                    <td>Sport :</td>
-                    <td>Natation.</td>
-                </tr>
-            </table>
+            <div id="techno" class="section">
+                <div class="section-title">
+                    <img class="section-logo" src="img/techno.svg" />
+
+                    <h2 class="h2-title">Compétences techno</h2>
+                </div>
+                <div class="section-content">
+                    <table>
+                        <tr>
+                            <td>Langages informatiques:</td>
+                            <td>javascript, rust, bash, PHP</td>
+                        </tr>
+                        <tr>
+                            <td>Paradigme de programmation:</td>
+                            <td>Procédural, Orienté Objet</td>
+                        </tr>
+                        <tr>
+                            <td>Back-end:</td>
+                            <td>NodeJS, Symfony</td>
+                        </tr>
+                        <tr>
+                            <td>Front-end :</td>
+                            <td>HTML/CSS, React, Meteor, notions de redux</td>
+                        </tr>
+                        <tr>
+                            <td>Base de données :</td>
+                            <td>SQL (MySQL, MariaDB, PostgresQL)</td>
+                        </tr>
+                        <tr>
+                            <td>linux :</td>
+                            <td>
+                                Debian, Arch Linux. Installation et maintenance,
+                                scripts shell, regex.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>admin :</td>
+                            <td>
+                                Mise en place et maintenance de serveurs HTTP
+                                (Apache, NginX), FTP, minecraft.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Devops :</td>
+                            <td>git, ssh, docker, docker-compose, ansible</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="humain" class="section">
+                <div class="section-title">
+                    <img class="section-logo" src="img/humain.svg" />
+                    <h2 class="h2-title">Compétences humaines</h2>
+                </div>
+
+                <div class="section-content">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Associatif :</td>
+                                <td>
+                                    Président d'Espéranto-jeunes de 2011 à 2012.
+                                    Organisation de rencontres internationales.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pédagogie et relationnel:</td>
+                                <td>
+                                    Aisance face à un groupe, capacité à faire
+                                    passer un message précis.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Chaîne youtube:</td>
+                                <td>« Emmanuel explique Bitcoin »</td>
+                            </tr>
+                            <tr>
+                                <td>Langues:</td>
+                                <td>
+                                    Anglais, allemand et espéranto, excellente
+                                    maîtrise à l'oral et à l'écrit.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="loisirs" class="section">
+                <div class="section-title">
+                    <img class="section-logo" src="img/loisirs.svg" />
+
+                    <h2 class="h2-title">Loisirs</h2>
+                </div>
+                <div class="section-content">
+                    <table>
+                        <tr>
+                            <td>Écriture :</td>
+                            <td>Autopublié un récit autobiographique.</td>
+                        </tr>
+                        <tr>
+                            <td>Musique :</td>
+                            <td>Animation de chants de groupe à la guitare.</td>
+                        </tr>
+                        <tr>
+                            <td>Sport :</td>
+                            <td>Natation.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </body>
 </html>

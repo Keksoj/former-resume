@@ -1,13 +1,58 @@
-/* #introduction {
-    display: flex;
-    justify-content: center;
-} */
-
 body {
-    max-width: 800px;
-    margin: auto;
-    font-family: "trebuchet MS", verdana, times, arial, Courier, monospace;
+    font-family: 'trebuchet MS', verdana, times, arial, Courier, monospace;
+}
+
+.link-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.link-item {
+    padding: 1em;
+    border: 1px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+
     padding: 10px;
+}
+
+.section-title {
+    /* padding: 5px; */
+}
+img.section-logo {
+    fill: background;
+    display: block;
+    margin: auto;
+    /* width: 50%; */
+    width: 10em;
+}
+
+.section-content {
+    width: 500px;
+}
+
+img.link-icon {
+    /* display: inline-block; */
+    fill: white;
+    height: 3em;
+    /* width: 1.5em; */
+    line-height: 1;
+    /* padding: 0.5em; */
+    /* position: relative; */
+    top: -1px;
+    /* vertical-align: middle; */
 }
 
 #profile-photo {
@@ -21,31 +66,11 @@ body {
 #profile-name,
 #profile-abstract {
     text-align: center;
+    padding-bottom: 30px;
 }
 
-.links {
-    display: flex;
-    justify-content: center;
-}
-
-.link {
-    padding: 1em;
-    border: 1px;
-}
-
-img.link-icon {
-    display: inline-block;
-    fill: currentColor;
-    height: 1.5em;
-    width: 1.5em;
-    line-height: 1;
-    padding: 0.5em;
-    position: relative;
-    top: -1px;
-    vertical-align: middle;
-}
-
-h1 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -60,7 +85,7 @@ table {
 }
 
 td {
-    border: 1px solid #999;
+    border: 0px solid #999;
     padding: 0.75rem;
 }
 
@@ -75,4 +100,27 @@ input:hover {
 
 .swal-overlay {
     background-color: rgba(43, 165, 137, 0.45);
+}
+
+
+
+/* color the boxes */
+#head {
+    background-color: azure;
+    margin: 0px;
+}
+#parcours {
+    background-color: turquoise;
+}
+#realisations {
+    background-color: ivory;
+}
+#techno {
+    background-color: lightgray;
+}
+#humain {
+    background-color: lightyellow;
+}
+#loisirs {
+    background-color: linen;
 }
