@@ -17,4 +17,5 @@ Toutes les formations sont en alternance. Voir ecole404.fr`,
 [10, 2, 3, 5, 9, 1, 4, 7, 6, 8, 0]
 Les solutions à ce problème sont nombreuses, chacune avec ses avantages et inconvénients. Le défi est d'optimiser le nombre d'opérations de comparaison et d'intervertissement.
 Cet exercice a un intérêt pédagogique pour le développeur, il oblige à synthétiser sa pensée et à traduire en language informatique des abstractions mathématiques.`,
+    esperanto: `Inventé par un médecin polonais en 1887, l'espéranto est une langue artificielle, conçue pour être la plus facile à apprendre, par le plus grand nombre de gens. Elle est idéale pour se comprendre quand on n'a pas la même langue maternelle. La vision utopique d'un espéranto universel n'est pas morte, mais c'est surtout une communauté globale d'environ un million de passionnés qui se réunissent régulièrement pour parler et chanter leur langue.`,
 }
