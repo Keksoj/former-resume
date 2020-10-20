@@ -42,7 +42,7 @@ body {
 }
 
 .section-title {
-    /* padding: 5px; */
+    /*  rien de particulier */
 }
 img.section-logo {
     fill: background;
@@ -51,7 +51,6 @@ img.section-logo {
     /* width: 50%; */
     width: 10em;
 }
-
 
 img.link-icon {
     /* display: inline-block; */
@@ -142,7 +141,7 @@ input:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    align-content:space-around;
+    align-content: space-around;
     margin: 0;
     list-style: none;
     /* padding: 10px; */
