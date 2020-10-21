@@ -5,6 +5,10 @@ const details = {
 - Développeur Concepteur d'Applications
 - Ingénieur informatique SI et Business Intelligence
 Toutes les formations sont en alternance. Voir ecole404.fr`,
+    formation: `La formation est pour moi le moyen de compléter mes connaissances autodidactes.
+Je sais tout des requêtes HTTP mais encore rien du rapport au client.
+Les intervenants, tous entrepreneurs, nous communiquent à l'école ce que je n'ai pas pu apprendre dans le manuel. C'est le « métier », qu'on m'a notamment résumé ainsi : 
+transformer les envies du client en besoins, et assurer qu'il est averti tout le long de la conception et du développement.`,
     chaudronnerie: `La chaudronnerie est l'art de fabriquer toutes sortes de choses à partir de tôle métallique. J'ai deux ans d'expérience répartie sur plusieurs années, pour avoir alterné entre travail et voyages.
 2005 - 2007 : BTS au Lycée Alexis de Tocqueville (Cherbourg) Stage à l'atelier coque des chantiers navals (sous-marins nucléaires)
 2007 : Colas Rail, maintenance de machines d'entretien ferroviaires, aux Mureaux (Mantes-la-jolie)

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,7 +26,7 @@
 
     <body>
         <div class="flex-container">
-            <div id="head">
+            <div class="header">
                 <img
                     id="profile-photo"
                     src="https://avatars0.githubusercontent.com/u/29835330?s=460&u=60036da68e1a1ef839926840098915a86c10f349&v=4"
@@ -68,11 +68,12 @@
                 </div>
 
                 <p id="profile-abstract">
-                    Passionné de technologie, inscrit à l'<a
-                        target="_blank"
-                        href="https://ecole404.fr/"
-                        >école 404</a
-                    >, j'aspire à mettre mes compétences au service de votre
+                    Passionné de technologie, inscrit à l'école 404
+                    <input
+                        type="button"
+                        onclick="swal(details.ecole);"
+                        value="(qu'est-ce que c'est ?)"
+                    />, j'aspire à mettre mes compétences au service de votre
                     entreprise.
                 </p>
             </div>
@@ -87,18 +88,20 @@
                         <tr>
                             <td>2020 – 2022</td>
                             <td>
-                                Formation en alternance à l'école 404
-                                <input
+                                École 404, formation en alternance de deux ans,
+                                au titre de Développeur et Concepteur
+                                d'Applications.<input
+                                    id="explication_formation"
                                     type="button"
-                                    onclick="swal(details.ecole);"
-                                    value="(qu'est-ce que c'est ?)"
-                                />, au titre de Développeur et Concepteur
-                                d'Applications
+                                    onclick="swal(details.formation);"
+                                    value="Comment je vois la formation."
+                                />
+
                                 <a
                                     target="_blank"
                                     href="https://ecole404.fr/concepteur-developpeur-applications"
                                 >
-                                    (voir la fiche formation)</a
+                                    (lien vers la fiche formation)</a
                                 >.
                             </td>
                         </tr>
@@ -419,6 +422,37 @@
                         <tr>
                             <td>Sport :</td>
                             <td>Natation.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="personnal_data" class="section put_the_logo_to_the_left">
+                <div class="section-title">
+                    <img class="section-logo" src="img/perso.svg" />
+
+                    <h2 class="h2-title">Détails persos</h2>
+                </div>
+                <div class="section-content">
+                    <table>
+                        <tr>
+                            <td>Âge :</td>
+                            <td>33 ans.</td>
+                        </tr>
+                        <tr>
+                            <td>Voiture :</td>
+                            <td>Clio + permis B.</td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td>emmanuel.bosquet@ecole404.fr <a
+                                href="mailto:emmanuel.bosquet@ecole404.fr"
+                                >cliquez ici</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Téléphone:</td>
+                            <td><img id="hello_world" src="img/hello_world.jpg"/></td>
                         </tr>
                     </table>
                 </div>
