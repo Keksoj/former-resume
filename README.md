@@ -1,6 +1,6 @@
 # Mon CV en ligne
 
-Finalement je me débrouille en CSS ! Je suis fan de [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), qui permet de faire du responsive à peu de frais.
+Finalement, je me débrouille en CSS ! Je suis fan de [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), qui permet de faire du responsive à peu de frais.
 
 Flexbox permet d'organiser des items dans un container. Chaque section de mon CV est un container que j'ai appelé `section`, et qui contient deux items :
 
